@@ -8,7 +8,7 @@ class Solution {
                 stack.pop();}
             else if ( (s.charAt(i) == ']') && (!(stack.isEmpty())) && (((char)(stack.peek()))=='[')){
                 stack.pop();}
-            else if((s.charAt(i) == '}') && ((!(stack.isEmpty())) && ((char)(stack.peek()))=='{')){
+            else if((s.charAt(i) == '}')  && ((!(stack.isEmpty())) && ((char)(stack.peek()))=='{')){
                 stack.pop();}
             else{
                 stack.push(s.charAt(i));}
