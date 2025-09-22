@@ -5,10 +5,6 @@ class Solution {
         int first = -1;
         int last = -1;
 
-        if(nums.length == 0){
-            return new int[]{-1, -1};
-        }
-
         while(start<=end){
         int mid = start + (end - start) / 2;
         
